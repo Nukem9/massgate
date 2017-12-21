@@ -28,7 +28,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <memory.h>
+// WARNING: This includes curl's header incorrectly, so I'm removing it (12-21-2017)
+//#include <memory.h>
 
 #include "MC_Profiler.h"
 #include "MT_ThreadingTools.h"

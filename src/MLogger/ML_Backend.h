@@ -52,7 +52,7 @@ private:
 	int				myStringLimit;
 	const char*		myLevelStrings[5];
 
-	char*			PrivStripPath(
+	const char*		PrivStripPath(
 						const char* aFileName);
 };
 

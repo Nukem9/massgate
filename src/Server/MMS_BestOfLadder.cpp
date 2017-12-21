@@ -288,7 +288,7 @@ MMS_BestOfLadder::LoadLadder()
 		assert(false && "Unable to load ladder");
 	
 	int				lastProfileId = -1;
-	LadderItem*		currentProfile;
+	LadderItem*		currentProfile = nullptr;
 	while(result.GetNextRow(row))
 	{	
 		int			profileId = row["profileId"];
@@ -299,6 +299,9 @@ MMS_BestOfLadder::LoadLadder()
 			currentProfile = &myItems[myItems.Count()-1];
 			lastProfileId = profileId;
 		}
+
+		if (!currentProfile)
+			assert(false);
 
 		if((unsigned int) currentProfile->Count(this) < myMaxEntryCount)
 			currentProfile->ForceAdd(row["id"] ,row["score"], row["entered"], this);

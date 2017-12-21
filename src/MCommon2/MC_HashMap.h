@@ -163,7 +163,7 @@ public:
 		void	operator++()						{ for( ++myIndex; myIndex<myMap->myArraySize && !myMap->myEntries[myIndex].myValidFlag; ++myIndex ) {} }	// prefix
 		void	operator++( int dummy )				{ ++*this; }		// postfix
 		void	operator--()						{ for( --myIndex; myIndex<myMap->myArraySize && !myMap->myEntries[myIndex].myValidFlag; --myIndex ) {} }	// prefix
-		void	operator--( int dummy )				{ --*this }			// postfix
+		void	operator--( int dummy )				{ --*this; }			// postfix
 
 	private:
 		MC_HashBase*		myMap;
@@ -475,6 +475,7 @@ class MC_HashSet : public MC_HashBase<unsigned int, ITEM, MC_HashSet<ITEM> >
 {
 public:
 	typedef typename MC_HashBase<unsigned int, ITEM, MC_HashSet<ITEM> > BASE;
+	typedef typename BASE::key_type key_type;
 
 	friend class BASE;
 

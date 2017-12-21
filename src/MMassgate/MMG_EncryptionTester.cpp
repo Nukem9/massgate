@@ -84,7 +84,7 @@ MMG_EncryptionTester::Test()
 		MMG_ICryptoHashAlgorithm* hasher1 = new MMG_Tiger();
 		MMG_Tiger hasher2;
 		MMG_CryptoHash hash1, hash2;
-		char* plaintext = "Hello how are you today?";
+		const char* plaintext = "Hello how are you today?";
 		hash1 = hasher1->GenerateHash(plaintext, (unsigned long)strlen(plaintext));
 		hash2 = hasher2.GenerateHash(plaintext, (unsigned long)strlen(plaintext));
 		delete hasher1;
@@ -101,8 +101,8 @@ MMG_EncryptionTester::Test()
 		MMG_CryptoHash hash1, hash2;
 		MMG_ICryptoHashAlgorithm* hasher1 = new MMG_Tiger();
 		MMG_Tiger hasher2;
-		char* plaintext1 = "Hello how are you today?";
-		char* plaintext2 = "Hello how are you to";
+		const char* plaintext1 = "Hello how are you today?";
+		const char* plaintext2 = "Hello how are you to";
 		hash1 = hasher1->GenerateHash(plaintext1, (unsigned long)((strlen(plaintext2) < strlen(plaintext1)) ? strlen(plaintext2) : strlen(plaintext1)));
 		hash2 = hasher2.GenerateHash(plaintext2, (unsigned long)((strlen(plaintext2) < strlen(plaintext1)) ? strlen(plaintext2) : strlen(plaintext1)));
 		delete hasher1;
@@ -375,7 +375,7 @@ MMG_EncryptionTester::Test()
 		MMG_BlockTEA cipher1, cipher2;
 		cipher1.SetKey("TEF6-GAB2-GEW7-WEB2-9425");
 		cipher2.SetKey("TEF6-GAB2-GEW7-WEB2-9426");
-		char* sourcetext="hello there how are you? Your account has been encriched with several hundred megabucks.";
+		const char* sourcetext="hello there how are you? Your account has been encriched with several hundred megabucks.";
 		char* text1=strdup(sourcetext);
 		char* text2=strdup(text1);
 		unsigned long textlen = (unsigned long)strlen(text1);

@@ -21,7 +21,10 @@
 #include "mc_growingarray.h"
 #include "MT_Mutex.h"
 #if IS_PC_BUILD		// SWFM:AW - To get the xb360 to compile
+extern "C"
+{
 #include "curl.h"
+}
 #endif
 
 class MN_TcpConnection;

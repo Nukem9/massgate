@@ -606,7 +606,7 @@ MN_WinsockNet::DumpNetworkInformation()
 			bool currentAdapterIsFirstUp = false;
 			char dnsStrings[256] = "";
 			char name[512] = "(query not supported)";
-			char* type = "(query not supported)";
+			const char* type = "(query not supported)";
 			MC_StaticString<64> status = "(query not supported)";
 			DWORD mtu = -1;
 			DWORD flags = -1;
@@ -814,7 +814,7 @@ MN_WinsockNet::DumpNetworkInformation()
 				}
 			}
 
-			char* generaltype = "Unknown";
+			const char* generaltype = "Unknown";
 			switch(pAdapter->Type)
 			{
 			case MIB_IF_TYPE_OTHER:			generaltype = "MIB_IF_TYPE_OTHER";			break;
@@ -1001,7 +1001,7 @@ MN_WinsockNet::DumpNetworkInformation()
 			ia.s_addr = pIpForwardTable->table[i].dwForwardNextHop;
 			memcpy(addrbuff[2], inet_ntoa(ia), 16);
 
-			char* proto = "UNKNOWN";
+			const char* proto = "UNKNOWN";
 			switch (pIpForwardTable->table[i].dwForwardProto)
 			{
 				/*
@@ -1049,7 +1049,7 @@ MN_WinsockNet::DumpNetworkInformation()
 			case PROTO_IP_NT_STATIC_NON_DOD:	proto = "PROTO_IP_NT_STATIC_NON_DOD";	break;
 			};
 
-			char* type = "UNKNOWN";
+			const char* type = "UNKNOWN";
 			switch (pIpForwardTable->table[i].dwForwardType)
 			{
 			case 4: type = "REMOTE_ROUTE";	break;

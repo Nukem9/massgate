@@ -55,7 +55,7 @@ ML_Backend::SetLevelString(
 	myLevelStrings[aLevel] = aString;
 }
 
-char* 
+const char* 
 ML_Backend::PrivStripPath(
 	const char* aFile)
 {

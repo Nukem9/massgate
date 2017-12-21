@@ -324,7 +324,7 @@ protected:
 
 
 template <class Type>
-MC_GrowingArray<Type>::MC_GrowingArray(int aNrOfRecommendedItems, int anItemIncreaseSize, bool aSafemodeFlag = true)
+MC_GrowingArray<Type>::MC_GrowingArray(int aNrOfRecommendedItems, int anItemIncreaseSize, bool aSafemodeFlag)
 {
 	myItemList = NULL;
 	myUsedNrOfItems = 0;

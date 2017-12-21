@@ -17,7 +17,10 @@
 #ifndef __MN_INETHANDLER_H__
 #define __MN_INETHANDLER_H__
 
+extern "C"
+{
 #include "curl.h"
+}
 
 class MN_INetHandler
 {
@@ -43,7 +46,7 @@ protected:
 	MC_String myNetRequesterURL;
 	CURLSH* myDnsShared; 
 
-	MN_INetHandler::MN_INetHandler();
+	MN_INetHandler();
 
 };
 

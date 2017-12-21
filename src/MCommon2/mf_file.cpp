@@ -1179,7 +1179,9 @@ char* MF_File::ExtractDirectory(char* aDirectoryDest, const char* aFullPath)
 	if (aFullPath == NULL)
 	{
 		assert(false);
-		return "";
+
+		aDirectoryDest[0] = '\0';
+		return aDirectoryDest;
 	}
 
 	len = strlen(aFullPath);

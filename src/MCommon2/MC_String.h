@@ -466,7 +466,7 @@ MC_Str<C,S>& MC_Str<C,S>::TrimLeft()
 }
 
 template<class C, int S>
-MC_Str<C,S>& MC_Str<C,S>::Delete(int nIndex, int nCount = 1)
+MC_Str<C,S>& MC_Str<C,S>::Delete(int nIndex, int nCount)
 {
 	if(nIndex < 0)
 		return *this;

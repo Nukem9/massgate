@@ -29,7 +29,7 @@ public:
 	void SetKey(const char* thePassphrase);
 
 	void SetRawKey(const MMG_CryptoHash& theRawKey);
-	MMG_CryptoHash MMG_BlockTEA::GetHashOfKey() const;
+	MMG_CryptoHash GetHashOfKey() const;
 	// Encrypt data inplace. Data is theDataLength BYTES long. Data that is 1 single byte WILL NOT BE ENCRYPTED!
 	void Encrypt(char* theData, unsigned long theDataLength) const;
 	// Decrypt data inplace. Data is theDataLength BYTES long

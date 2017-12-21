@@ -23,8 +23,8 @@
 class MN_DNSEntry
 {
 public:
-	MN_DNSEntry::MN_DNSEntry( void );
-	MN_DNSEntry::~MN_DNSEntry( void );
+	MN_DNSEntry( void );
+	~MN_DNSEntry( void );
 
 	MC_StaticString<64> myDNSName;			// Alphanumerical IP. May be domain name or just numbers.
 	in_addr myInetAddr;	// in_addr struct is unsigned long. Get temp char* IP using inet_ntoa()

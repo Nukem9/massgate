@@ -268,7 +268,7 @@ private:
 	unsigned int myGameVersion;
 	unsigned int myGameProtocolVersion;
 
-	MMG_Messaging* MMG_ServerTracker::PrivGetMessaging(); 
+	MMG_Messaging* PrivGetMessaging(); 
 	
 	MMG_IDecorationListener* myDecorationListener;
 	MMG_IStatsListerner* myStatsListener; 

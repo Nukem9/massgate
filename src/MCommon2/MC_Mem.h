@@ -85,8 +85,8 @@ bool MC_TempMemIsEnabled();
 class MC_TempBuffer
 {
 public:
-	MC_TempBuffer::MC_TempBuffer(size_t aSize)	{ myData = MC_TempAlloc(aSize); }
-	MC_TempBuffer::~MC_TempBuffer()				{ MC_TempFree(myData); }
+	MC_TempBuffer(size_t aSize)	{ myData = MC_TempAlloc(aSize); }
+	~MC_TempBuffer()			{ MC_TempFree(myData); }
 
 	void* GetData() const { return myData; }
 private:

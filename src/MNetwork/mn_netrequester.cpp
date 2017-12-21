@@ -17,7 +17,10 @@
 #include "stdafx.h"
 
 #if IS_PC_BUILD		// SWFM:AW - To get the xb360 to compile
+extern "C"
+{
 #include "curl.h"
+}
 #endif
 #include "MC_Debug.h"
 #include "MN_NetRequester.h"
