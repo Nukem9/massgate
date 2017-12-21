@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\src\MCommon2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\3rdparty\curl\src\base64.h" />
+    <ClInclude Include="..\3rdparty\curl\src\config-win32.h" />
+    <ClInclude Include="..\3rdparty\curl\src\connect.h" />
+    <ClInclude Include="..\3rdparty\curl\src\content_encoding.h" />
+    <ClInclude Include="..\3rdparty\curl\src\cookie.h" />
+    <ClInclude Include="..\3rdparty\curl\src\curl.h" />
+    <ClInclude Include="..\3rdparty\curl\src\curlver.h" />
+    <ClInclude Include="..\3rdparty\curl\src\curlx.h" />
+    <ClInclude Include="..\3rdparty\curl\src\dict.h" />
+    <ClInclude Include="..\3rdparty\curl\src\easy.h" />
+    <ClInclude Include="..\3rdparty\curl\src\easyif.h" />
+    <ClInclude Include="..\3rdparty\curl\src\escape.h" />
+    <ClInclude Include="..\3rdparty\curl\src\file.h" />
+    <ClInclude Include="..\3rdparty\curl\src\formdata.h" />
+    <ClInclude Include="..\3rdparty\curl\src\ftp.h" />
+    <ClInclude Include="..\3rdparty\curl\src\getinfo.h" />
+    <ClInclude Include="..\3rdparty\curl\src\gtls.h" />
+    <ClInclude Include="..\3rdparty\curl\src\hash.h" />
+    <ClInclude Include="..\3rdparty\curl\src\hostip.h" />
+    <ClInclude Include="..\3rdparty\curl\src\http.h" />
+    <ClInclude Include="..\3rdparty\curl\src\http_chunks.h" />
+    <ClInclude Include="..\3rdparty\curl\src\http_negotiate.h" />
+    <ClInclude Include="..\3rdparty\curl\src\if2ip.h" />
+    <ClInclude Include="..\3rdparty\curl\src\inet_ntoa_r.h" />
+    <ClInclude Include="..\3rdparty\curl\src\inet_ntop.h" />
+    <ClInclude Include="..\3rdparty\curl\src\inet_pton.h" />
+    <ClInclude Include="..\3rdparty\curl\src\krb4.h" />
+    <ClInclude Include="..\3rdparty\curl\src\ldap.h" />
+    <ClInclude Include="..\3rdparty\curl\src\llist.h" />
+    <ClInclude Include="..\3rdparty\curl\src\md5.h" />
+    <ClInclude Include="..\3rdparty\curl\src\memdebug.h" />
+    <ClInclude Include="..\3rdparty\curl\src\memory.h" />
+    <ClInclude Include="..\3rdparty\curl\src\mprintf.h" />
+    <ClInclude Include="..\3rdparty\curl\src\multi.h" />
+    <ClInclude Include="..\3rdparty\curl\src\multiif.h" />
+    <ClInclude Include="..\3rdparty\curl\src\parsedate.h" />
+    <ClInclude Include="..\3rdparty\curl\src\progress.h" />
+    <ClInclude Include="..\3rdparty\curl\src\select.h" />
+    <ClInclude Include="..\3rdparty\curl\src\sendf.h" />
+    <ClInclude Include="..\3rdparty\curl\src\setup.h" />
+    <ClInclude Include="..\3rdparty\curl\src\share.h" />
+    <ClInclude Include="..\3rdparty\curl\src\sockaddr.h" />
+    <ClInclude Include="..\3rdparty\curl\src\speedcheck.h" />
+    <ClInclude Include="..\3rdparty\curl\src\splay.h" />
+    <ClInclude Include="..\3rdparty\curl\src\stdcheaders.h" />
+    <ClInclude Include="..\3rdparty\curl\src\strequal.h" />
+    <ClInclude Include="..\3rdparty\curl\src\strerror.h" />
+    <ClInclude Include="..\3rdparty\curl\src\strtok.h" />
+    <ClInclude Include="..\3rdparty\curl\src\strtoofft.h" />
+    <ClInclude Include="..\3rdparty\curl\src\timeval.h" />
+    <ClInclude Include="..\3rdparty\curl\src\transfer.h" />
+    <ClInclude Include="..\3rdparty\curl\src\types.h" />
+    <ClInclude Include="..\3rdparty\curl\src\url.h" />
+    <ClInclude Include="..\3rdparty\curl\src\urldata.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\crc32.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\deflate.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\inffast.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\inffixed.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\inflate.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\inftrees.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\trees.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\zconf.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\zlib.h" />
+    <ClInclude Include="..\3rdparty\zlib\src\zutil.h" />
+    <ClInclude Include="..\src\MCommon2\ct_assert.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Algorithm.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Array.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ArrayMap.h" />
+    <ClInclude Include="..\src\MCommon2\MC_BalancedITree.h" />
+    <ClInclude Include="..\src\MCommon2\MC_BalancedPTree.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Base.h" />
+    <ClInclude Include="..\src\MCommon2\MC_BitVector.h" />
+    <ClInclude Include="..\src\MCommon2\mc_circulararray.h" />
+    <ClInclude Include="..\src\MCommon2\MC_CircularGrowingArray.h" />
+    <ClInclude Include="..\src\MCommon2\mc_commandline.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Constants.h" />
+    <ClInclude Include="..\src\MCommon2\MC_DataTypes.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Debug.h" />
+    <ClInclude Include="..\src\MCommon2\MC_DebugListenerImplementations.h" />
+    <ClInclude Include="..\src\MCommon2\MC_EggClockTimer.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Endian.h" />
+    <ClInclude Include="..\src\MCommon2\mc_f2i.h" />
+    <ClInclude Include="..\src\MCommon2\MC_FastAlloc.h" />
+    <ClInclude Include="..\src\MCommon2\mc_globaldefines.h" />
+    <ClInclude Include="..\src\MCommon2\MC_GrowingArray.h" />
+    <ClInclude Include="..\src\MCommon2\MC_HashMap.h" />
+    <ClInclude Include="..\src\MCommon2\MC_HeapImplementation.h" />
+    <ClInclude Include="..\src\MCommon2\MC_HybridArray.h" />
+    <ClInclude Include="..\src\MCommon2\MC_IniFile.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Iterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ITree.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ITreeInorderIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ITreeLevelorderIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ITreeNode.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ITreePostorderIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ITreePreorderIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_KeyTree.h" />
+    <ClInclude Include="..\src\MCommon2\MC_KeyTreeInorderIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_KeyTreeNode.h" />
+    <ClInclude Include="..\src\MCommon2\MC_KeyTreePostOrderIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Link.h" />
+    <ClInclude Include="..\src\MCommon2\MC_List.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ListIterator.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Math.h" />
+    <ClInclude Include="..\src\MCommon2\mc_md5.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Mem.h" />
+    <ClInclude Include="..\src\MCommon2\MC_MiniDumpTools.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Misc.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Pair.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Platform.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Platform_Win32.h" />
+    <ClInclude Include="..\src\MCommon2\mc_prettyprinter.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Profiler.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ProxyPtr.h" />
+    <ClInclude Include="..\src\MCommon2\MC_PTree.h" />
+    <ClInclude Include="..\src\MCommon2\MC_PTreeNode.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Publisher.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Registry.h" />
+    <ClInclude Include="..\src\MCommon2\MC_ScopedPtr.h" />
+    <ClInclude Include="..\src\MCommon2\MC_SmallObjectAllocator.h" />
+    <ClInclude Include="..\src\MCommon2\mc_sort.h" />
+    <ClInclude Include="..\src\MCommon2\MC_SortedGrowingArray.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Stack.h" />
+    <ClInclude Include="..\src\MCommon2\MC_StackList.h" />
+    <ClInclude Include="..\src\MCommon2\mc_stacktrace.h" />
+    <ClInclude Include="..\src\MCommon2\MC_StackWalker.h" />
+    <ClInclude Include="..\src\MCommon2\MC_StaticArray.h" />
+    <ClInclude Include="..\src\MCommon2\MC_String.h" />
+    <ClInclude Include="..\src\MCommon2\MC_StringParser.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Subscriber.h" />
+    <ClInclude Include="..\src\MCommon2\MC_SystemPaths.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Tokenizer.h" />
+    <ClInclude Include="..\src\MCommon2\MC_Vector.h" />
+    <ClInclude Include="..\src\MCommon2\mf_file.h" />
+    <ClInclude Include="..\src\MCommon2\mf_file_platform.h" />
+    <ClInclude Include="..\src\MCommon2\mi_time.h" />
+    <ClInclude Include="..\src\MCommon2\mi_timechecker.h" />
+    <ClInclude Include="..\src\MCommon2\mp_pack.h" />
+    <ClInclude Include="..\src\MCommon2\MS_Aes.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Event.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Job.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Mutex.h" />
+    <ClInclude Include="..\src\MCommon2\MT_PooledThread.h" />
+    <ClInclude Include="..\src\MCommon2\MT_ReadWriteLock.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Semaphore.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Supervisor.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Task.h" />
+    <ClInclude Include="..\src\MCommon2\MT_Thread.h" />
+    <ClInclude Include="..\src\MCommon2\MT_ThreadingTools.h" />
+    <ClInclude Include="..\src\MCommon2\MT_ThreadPool.h" />
+    <ClInclude Include="..\src\MCommon2\MT_WorkerThread.h" />
+    <ClInclude Include="..\src\MCommon2\StdAfx.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_connectionpinger.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_dataitem.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_mysqlconnection.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_prettyprinter.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_querylogger.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_stringconversion.h" />
+    <ClInclude Include="..\src\MDatabase\mdb_timeable.h" />
+    <ClInclude Include="..\src\MDatabase\stdafx.h" />
+    <ClInclude Include="..\src\MLogger\ML_Backend.h" />
+    <ClInclude Include="..\src\MLogger\ML_ConsoleBackend.h" />
+    <ClInclude Include="..\src\MLogger\ML_FileBackend.h" />
+    <ClInclude Include="..\src\MLogger\ML_Logger.h" />
+    <ClInclude Include="..\src\MLogger\stdafx.h" />
+    <ClInclude Include="..\src\MMassgate\ct_assert.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_AccessControl.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_AccountProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_AccountProxy.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_AuthToken.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_AutoMatch.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Average.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_BannedWordsProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_BannerProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_BitStream.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_BlackListMapProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_BlockTEA.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_CanPlayClanMatchProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_CdKeyChecker.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_CdKeyValidator.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Chat.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_CipherFactory.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Clan.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanChallengeStream.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanColosseumProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanGuestbookProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanMatchHistoryProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanMessageProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClanNamesProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ClientSettings.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Constants.h" />
+    <ClInclude Include="..\src\MMassgate\mmg_contentdownloader.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Cryptography.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_CryptoHash.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_DecorationProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_DSChangeServerRanking.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_EncryptedConnection.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_EncryptionTester.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Fingerprint.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_FriendsLadderProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Gang.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_GenericCache.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_GroupMemberships.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_HashToMapName.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_HttpRequester.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IAccountProxyCallbacks.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IChatRoomListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ICipher.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IClanSearchResultsListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ICryptoHashAlgorithm.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IFriendsListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IHttpHandler.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IKeyManager.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_INATNegotiationMessagingListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_INewsItemListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_InstantMessageListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IProfileListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IProfileSearchResultsListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IStateChangeListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_IStreamable.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_LadderProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_MassgateNotifications.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_MasterConnection.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Messaging.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_MinimalProfileCache.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_MiscClanProtocols.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_NATNegotiationProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_NewsItem.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_NewsTracker.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_NullCipher.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Optional.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_OptionalContentProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Options.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_PCCProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_PlainText.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Profile.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ProfileEditableVariablesProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ProfileGuestbookProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ProfileIgnoreProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ProtocolDelimiters.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Protocols.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_QuestionListener.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_RankProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ReliablePacketHandler.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ReliableUdpSocket.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ReliableUdpSocketServerFactory.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_SecureRudpConnection.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_SecureTcpClientConnectionFactory.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_SecureTcpConnection.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ServerBannerDownloader.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ServerFilter.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ServerProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ServersAndPorts.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ServerTracker.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_ServerVariables.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_SingleKeyManager.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Stats.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_StatsTrackingProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Tiger.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_TrackableServer.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_Util.h" />
+    <ClInclude Include="..\src\MMassgate\MMG_WaitForSlotProtocol.h" />
+    <ClInclude Include="..\src\MMassgate\stdafx.h" />
+    <ClInclude Include="..\src\MNetwork\MN_ClientConnectionFactory.h" />
+    <ClInclude Include="..\src\MNetwork\MN_Connection.h" />
+    <ClInclude Include="..\src\MNetwork\MN_ConnectionErrorType.h" />
+    <ClInclude Include="..\src\MNetwork\mn_dnscache.h" />
+    <ClInclude Include="..\src\MNetwork\MN_FlagSet.h" />
+    <ClInclude Include="..\src\MNetwork\MN_Format.h" />
+    <ClInclude Include="..\src\MNetwork\mn_icmpsocket.h" />
+    <ClInclude Include="..\src\MNetwork\MN_InducedLatencyHandler.h" />
+    <ClInclude Include="..\src\MNetwork\mn_inethandler.h" />
+    <ClInclude Include="..\src\MNetwork\MN_IWriteableDataStream.h" />
+    <ClInclude Include="..\src\MNetwork\MN_LoopbackConnection.h" />
+    <ClInclude Include="..\src\MNetwork\MN_Message.h" />
+    <ClInclude Include="..\src\MNetwork\mn_netrequester.h" />
+    <ClInclude Include="..\src\MNetwork\mn_netstats.h" />
+    <ClInclude Include="..\src\MNetwork\MN_Packet.h" />
+    <ClInclude Include="..\src\MNetwork\MN_Platform.h" />
+    <ClInclude Include="..\src\MNetwork\MN_ReadMessage.h" />
+    <ClInclude Include="..\src\MNetwork\MN_Resolver.h" />
+    <ClInclude Include="..\src\MNetwork\MN_SocketUtils.h" />
+    <ClInclude Include="..\src\MNetwork\MN_TcpClientConnectionFactory.h" />
+    <ClInclude Include="..\src\MNetwork\MN_TcpConnection.h" />
+    <ClInclude Include="..\src\MNetwork\MN_TcpSocket.h" />
+    <ClInclude Include="..\src\MNetwork\MN_UdpSocket.h" />
+    <ClInclude Include="..\src\MNetwork\MN_WinsockNet.h" />
+    <ClInclude Include="..\src\MNetwork\MN_WriteMessage.h" />
+    <ClInclude Include="..\src\MNetwork\StdAfx.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_256Bits.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_BitBuffer.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_BitStream.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_BoundQueue.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_ComboListener.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_ComboSocket.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Connection.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_ConnectionListener.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Connection_Win.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Console.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_GrowingArray.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_HashTable.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Huffman.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_HybridArray.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IArray.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IMap.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IMemCacheListener.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IMessageHandler.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IntegerStat.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IoCore.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IoCore_Win.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_IStream.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_LinkedList.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_MemCache.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_MemoryStream.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_MessageHandler.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_MessageHandler_Console.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_RawUDPSocket.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_ReadMessage.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Resolver.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Resolver_Win.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_RWLock.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_ServerBox.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_SimpleCounterStat.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Socket_Win.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_StackTraceException.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Stats.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_StatsContext.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_StringStat.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TCPConnection.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TCPConnectionListener.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TCPConnection_Win.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TCPListener.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TCPSocket.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TCPWriteList.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_TemplatedListener.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Types.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_UDPSocket.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_UDPWriteList.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_UnboundMemCache.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Vitter.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_WorkerThread.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_WriteableMemoryStream.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_WriteBuffer.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_WriteBufferPool.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_WriteList.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_WriteMessage.h" />
+    <ClInclude Include="..\src\MServerBox\MSB_Xtea.h" />
+    <ClInclude Include="..\src\MServerBox\stdafx.h" />
+    <ClInclude Include="..\src\Server\MMS_AccountAuthenticationUpdater.h" />
+    <ClInclude Include="..\src\Server\MMS_AccountConnectionHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_Assert.h" />
+    <ClInclude Include="..\src\Server\MMS_BanManager.h" />
+    <ClInclude Include="..\src\Server\MMS_BestOfLadder.h" />
+    <ClInclude Include="..\src\Server\MMS_CafeManager.h" />
+    <ClInclude Include="..\src\Server\MMS_CdKeyManagement.h" />
+    <ClInclude Include="..\src\Server\MMS_ChatRoom.h" />
+    <ClInclude Include="..\src\Server\MMS_ChatServerConnectionHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_ClanColosseum.h" />
+    <ClInclude Include="..\src\Server\MMS_ClanNameCache.h" />
+    <ClInclude Include="..\src\Server\MMS_ClanSmurfTester.h" />
+    <ClInclude Include="..\src\Server\MMS_ClanStats.h" />
+    <ClInclude Include="..\src\Server\MMS_ConnectionLog.h" />
+    <ClInclude Include="..\src\Server\MMS_Constants.h" />
+    <ClInclude Include="..\src\Server\MMS_CycleHashList.h" />
+    <ClInclude Include="..\src\Server\MMS_DatabaseConnection.h" />
+    <ClInclude Include="..\src\Server\MMS_DatabasePool.h" />
+    <ClInclude Include="..\src\Server\MMS_DoubleBufferedArray.h" />
+    <ClInclude Include="..\src\Server\MMS_EloLadder.h" />
+    <ClInclude Include="..\src\Server\MMS_EventTypes.h" />
+    <ClInclude Include="..\src\Server\MMS_ExecutionTimeSampler.h" />
+    <ClInclude Include="..\src\Server\MMS_FriendsLadder.h" />
+    <ClInclude Include="..\src\Server\MMS_GeoIP.h" />
+    <ClInclude Include="..\src\Server\MMS_HashTable.h" />
+    <ClInclude Include="..\src\Server\MMS_HeapImplementation.h" />
+    <ClInclude Include="..\src\Server\MMS_HistoryLadder.h" />
+    <ClInclude Include="..\src\Server\MMS_InitData.h" />
+    <ClInclude Include="..\src\Server\MMS_IOCPServer.h" />
+    <ClInclude Include="..\src\Server\MMS_IocpWorkerThread.h" />
+    <ClInclude Include="..\src\Server\MMS_LadderUpdater.h" />
+    <ClInclude Include="..\src\Server\MMS_MapBlackList.h" />
+    <ClInclude Include="..\src\Server\MMS_MasterConnectionHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_MasterServer.h" />
+    <ClInclude Include="..\src\Server\MMS_MessagingConnectionHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_MessagingNATNegotiationHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_MultiKeyManager.h" />
+    <ClInclude Include="..\src\Server\MMS_NATNegotiationLut.h" />
+    <ClInclude Include="..\src\Server\MMS_NATNegotiationRelayingServer.h" />
+    <ClInclude Include="..\src\Server\MMS_NATNegotiationRelayingServerConnectionHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_PersistenceCache.h" />
+    <ClInclude Include="..\src\Server\MMS_PlayerStats.h" />
+    <ClInclude Include="..\src\Server\MMS_SanityServer.h" />
+    <ClInclude Include="..\src\Server\MMS_ServerList.h" />
+    <ClInclude Include="..\src\Server\mms_serverlut.h" />
+    <ClInclude Include="..\src\Server\mms_serverlutcontainer.h" />
+    <ClInclude Include="..\src\Server\MMS_ServerStats.h" />
+    <ClInclude Include="..\src\Server\MMS_ServerTracker.h" />
+    <ClInclude Include="..\src\Server\MMS_ServerTrackerConnectionHandler.h" />
+    <ClInclude Include="..\src\Server\MMS_Statistics.h" />
+    <ClInclude Include="..\src\Server\MMS_Streamable.h" />
+    <ClInclude Include="..\src\Server\MMS_ThreadSafeQueue.h" />
+    <ClInclude Include="..\src\Server\MMS_TimeoutTimer.h" />
+    <ClInclude Include="..\src\Server\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3rdparty\curl\src\base64.c" />
+    <ClCompile Include="..\3rdparty\curl\src\connect.c" />
+    <ClCompile Include="..\3rdparty\curl\src\content_encoding.c" />
+    <ClCompile Include="..\3rdparty\curl\src\cookie.c" />
+    <ClCompile Include="..\3rdparty\curl\src\dict.c" />
+    <ClCompile Include="..\3rdparty\curl\src\easy.c" />
+    <ClCompile Include="..\3rdparty\curl\src\escape.c" />
+    <ClCompile Include="..\3rdparty\curl\src\file.c" />
+    <ClCompile Include="..\3rdparty\curl\src\formdata.c" />
+    <ClCompile Include="..\3rdparty\curl\src\ftp.c" />
+    <ClCompile Include="..\3rdparty\curl\src\getinfo.c" />
+    <ClCompile Include="..\3rdparty\curl\src\gtls.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hash.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hostares.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hostasyn.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hostip.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hostip4.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hostsyn.c" />
+    <ClCompile Include="..\3rdparty\curl\src\hostthre.c" />
+    <ClCompile Include="..\3rdparty\curl\src\http.c" />
+    <ClCompile Include="..\3rdparty\curl\src\http_chunks.c" />
+    <ClCompile Include="..\3rdparty\curl\src\http_negotiate.c" />
+    <ClCompile Include="..\3rdparty\curl\src\if2ip.c" />
+    <ClCompile Include="..\3rdparty\curl\src\inet_ntop.c" />
+    <ClCompile Include="..\3rdparty\curl\src\inet_pton.c" />
+    <ClCompile Include="..\3rdparty\curl\src\llist.c" />
+    <ClCompile Include="..\3rdparty\curl\src\md5.c" />
+    <ClCompile Include="..\3rdparty\curl\src\memdebug.c" />
+    <ClCompile Include="..\3rdparty\curl\src\mprintf.c" />
+    <ClCompile Include="..\3rdparty\curl\src\multi.c" />
+    <ClCompile Include="..\3rdparty\curl\src\parsedate.c" />
+    <ClCompile Include="..\3rdparty\curl\src\progress.c" />
+    <ClCompile Include="..\3rdparty\curl\src\security.c" />
+    <ClCompile Include="..\3rdparty\curl\src\select.c" />
+    <ClCompile Include="..\3rdparty\curl\src\sendf.c" />
+    <ClCompile Include="..\3rdparty\curl\src\share.c" />
+    <ClCompile Include="..\3rdparty\curl\src\speedcheck.c" />
+    <ClCompile Include="..\3rdparty\curl\src\splay.c" />
+    <ClCompile Include="..\3rdparty\curl\src\strequal.c" />
+    <ClCompile Include="..\3rdparty\curl\src\strerror.c" />
+    <ClCompile Include="..\3rdparty\curl\src\strtok.c" />
+    <ClCompile Include="..\3rdparty\curl\src\strtoofft.c" />
+    <ClCompile Include="..\3rdparty\curl\src\timeval.c" />
+    <ClCompile Include="..\3rdparty\curl\src\transfer.c" />
+    <ClCompile Include="..\3rdparty\curl\src\url.c" />
+    <ClCompile Include="..\3rdparty\curl\src\version.c" />
+    <ClCompile Include="..\3rdparty\zlib\src\adler32.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\compress.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\crc32.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\deflate.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\inffast.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\inflate.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\inftrees.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\trees.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\uncompr.cpp" />
+    <ClCompile Include="..\3rdparty\zlib\src\zutil.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_BitVector.cpp" />
+    <ClCompile Include="..\src\MCommon2\mc_commandline.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_Debug.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_DebugListenerImplementations.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_FastAlloc.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_HashMap.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_IniFile.cpp" />
+    <ClCompile Include="..\src\MCommon2\mc_md5.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_Mem.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_MiniDumpTools.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_Misc.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_Platform_Win32.cpp" />
+    <ClCompile Include="..\src\MCommon2\mc_prettyprinter.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_ProxyPtr.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_Registry.cpp" />
+    <ClCompile Include="..\src\MCommon2\mc_sort.cpp" />
+    <ClCompile Include="..\src\MCommon2\mc_stacktrace.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_StackWalker.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_String.cpp" />
+    <ClCompile Include="..\src\MCommon2\MC_SystemPaths.cpp" />
+    <ClCompile Include="..\src\MCommon2\mf_file.cpp" />
+    <ClCompile Include="..\src\MCommon2\mf_file_Win32.cpp" />
+    <ClCompile Include="..\src\MCommon2\mi_time.cpp" />
+    <ClCompile Include="..\src\MCommon2\mi_timechecker.cpp" />
+    <ClCompile Include="..\src\MCommon2\mp_pack.cpp" />
+    <ClCompile Include="..\src\MCommon2\MS_Aes.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Event.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Job.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Mutex.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_PooledThread.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_ReadWriteLock.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Semaphore.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Supervisor.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Task.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_Thread.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_ThreadingTools.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_ThreadPool.cpp" />
+    <ClCompile Include="..\src\MCommon2\MT_WorkerThread.cpp" />
+    <ClCompile Include="..\src\MCommon2\StdAfx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_connectionpinger.cpp" />
+    <ClCompile Include="..\src\MDatabase\mdb_mysqlconnection.cpp" />
+    <ClCompile Include="..\src\MDatabase\mdb_prettyprinter.cpp" />
+    <ClCompile Include="..\src\MDatabase\mdb_querylogger.cpp" />
+    <ClCompile Include="..\src\MDatabase\mdb_stringconversion.cpp" />
+    <ClCompile Include="..\src\MDatabase\mdb_timeable.cpp" />
+    <ClCompile Include="..\src\MDatabase\stdafx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\MLogger\ML_Backend.cpp" />
+    <ClCompile Include="..\src\MLogger\ML_ConsoleBackend.cpp" />
+    <ClCompile Include="..\src\MLogger\ML_FileBackend.cpp" />
+    <ClCompile Include="..\src\MLogger\ML_Logger.cpp" />
+    <ClCompile Include="..\src\MLogger\stdafx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MC_GenericCache.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_AccessControl.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_AccountProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_AccountProxy.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_AuthToken.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_AutoMatch.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_BannedWordsProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_BannerProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_BlackListMapProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_BlockTEA.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_CanPlayClanMatchProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_CdKeyChecker.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_CdKeyValidator.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Chat.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_CipherFactory.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Clan.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanChallengeStream.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanColosseumProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanGuestbookProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanListener.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanMatchHistoryProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanMessageProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ClanNamesProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_CryptoHash.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_DecorationProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_DSChangeServerRanking.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_EncryptedConnection.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_EncryptionTester.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Fingerprint.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_FriendsLadderProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_HashToMapName.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ICipher.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_IFriendsListener.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_IHttpRequester.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_INATNegotiationMessagingListener.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_InstantMessageListener.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_LadderProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_MasterConnection.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Messaging.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_MinimalProfileCache.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_MiscClanProtocols.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_NATNegotiationProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_NewsItem.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_NullCipher.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_OptionalContentProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Options.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_PCCProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_PlainText.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Profile.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ProfileEditableVariablesProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ProfileGuestbookProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ProfileIgnoreProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Protocols.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_QuestionListener.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_RankProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ReliableUdpSocket.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ReliableUdpSocketServerFactory.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_SecureRudpConnection.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_SecureTcpClientConnectionFactory.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_SecureTcpConnection.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ServerBannerDownloader.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ServerFilter.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ServersAndPorts.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ServerTracker.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_ServerVariables.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_SingleKeyManager.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Stats.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_StatsTrackingProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_Tiger.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_TrackableServer.cpp" />
+    <ClCompile Include="..\src\MMassgate\MMG_WaitForSlotProtocol.cpp" />
+    <ClCompile Include="..\src\MMassgate\stdafx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_ClientConnectionFactory.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_Connection.cpp" />
+    <ClCompile Include="..\src\MNetwork\mn_dnscache.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_FlagSet.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_Format.cpp" />
+    <ClCompile Include="..\src\MNetwork\mn_icmpsocket.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_InducedLatencyHandler.cpp" />
+    <ClCompile Include="..\src\MNetwork\mn_inethandler.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_Message.cpp" />
+    <ClCompile Include="..\src\MNetwork\mn_netrequester.cpp" />
+    <ClCompile Include="..\src\MNetwork\mn_netstats.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_Packet.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_ReadMessage.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_Resolver.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_SocketUtils.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_TcpClientConnectionFactory.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_TcpConnection.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_TcpSocket.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_UdpSocket.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_WinsockNet.cpp" />
+    <ClCompile Include="..\src\MNetwork\MN_WriteMessage.cpp" />
+    <ClCompile Include="..\src\MNetwork\StdAfx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_BitBuffer.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_BitStream.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_ClientHandler.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_ComboSocket.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_ConnectionListener.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Connection_Win.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Console.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_HashTable.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Huffman.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_IntegerStat.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_IoCore_Win.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_MemoryStream.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_MessageHandler.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_RawUDPSocket.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_ReadMessage.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Resolver.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Resolver_Win.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_RWLock.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_SimpleCounterStat.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Socket_Win.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_StackTraceException.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Stats.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_StatsContext.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_StringStat.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_TCPConnectionListener.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_TCPConnection_Win.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_TCPListener.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_TCPSocket.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_TCPWriteList.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Types.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_UDPSocket.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_UDPWriteList.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_WorkerThread.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_WriteableMemoryStream.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_WriteBuffer.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_WriteBufferPool.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_WriteList.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_WriteMessage.cpp" />
+    <ClCompile Include="..\src\MServerBox\MSB_Xtea.cpp" />
+    <ClCompile Include="..\src\MServerBox\stdafx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_AccountAuthenticationUpdater.cpp" />
+    <ClCompile Include="..\src\Server\MMS_AccountConnectionHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_Assert.cpp" />
+    <ClCompile Include="..\src\Server\MMS_BanManager.cpp" />
+    <ClCompile Include="..\src\Server\MMS_BestOfLadder.cpp" />
+    <ClCompile Include="..\src\Server\MMS_CafeManager.cpp" />
+    <ClCompile Include="..\src\Server\MMS_CdKeyManagement.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ChatRoom.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ChatServer.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ChatServerConnectionHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ClanColosseum.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ClanNameCache.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ClanSmurfTester.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ClanStats.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ConnectionLog.cpp" />
+    <ClCompile Include="..\src\Server\MMS_Constants.cpp" />
+    <ClCompile Include="..\src\Server\MMS_CycleHashList.cpp" />
+    <ClCompile Include="..\src\Server\MMS_DatabasePool.cpp" />
+    <ClCompile Include="..\src\Server\MMS_DubbleBufferedArray.cpp" />
+    <ClCompile Include="..\src\Server\MMS_EloLadder.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ExecutionTimeSampler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_FriendsLadder.cpp" />
+    <ClCompile Include="..\src\Server\MMS_GeoIP.cpp" />
+    <ClCompile Include="..\src\Server\MMS_HashTable.cpp" />
+    <ClCompile Include="..\src\Server\MMS_HistoryLadder.cpp" />
+    <ClCompile Include="..\src\Server\MMS_InitData.cpp" />
+    <ClCompile Include="..\src\Server\MMS_IOCPServer.cpp" />
+    <ClCompile Include="..\src\Server\MMS_IocpWorkerThread.cpp" />
+    <ClCompile Include="..\src\Server\MMS_LadderUpdater.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MapBlackList.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MassgateServers.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MasterConnectionHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MasterServer.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MessagingConnectionHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MessagingNATNegotiationHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_MultiKeyManager.cpp" />
+    <ClCompile Include="..\src\Server\MMS_NATNegotiationLut.cpp" />
+    <ClCompile Include="..\src\Server\MMS_NATNegotiationRelayingServer.cpp" />
+    <ClCompile Include="..\src\Server\MMS_NATNegotiationRelayingServerConnectionHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_PersistenceCache.cpp" />
+    <ClCompile Include="..\src\Server\MMS_PlayerStats.cpp" />
+    <ClCompile Include="..\src\Server\MMS_SanityServer.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ServerList.cpp" />
+    <ClCompile Include="..\src\Server\mms_serverlut.cpp" />
+    <ClCompile Include="..\src\Server\mms_serverlutcontainer.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ServerStats.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ServerTracker.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ServerTrackerConnectionHandler.cpp" />
+    <ClCompile Include="..\src\Server\MMS_Statistics.cpp" />
+    <ClCompile Include="..\src\Server\MMS_ThreadSafeQueue.cpp" />
+    <ClCompile Include="..\src\Server\MMS_TimeoutTimer.cpp" />
+    <ClCompile Include="..\src\Server\stdafx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{80CF01EE-F28A-4D61-86D5-D7C4F0EA4BCF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>massgate</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\</OutDir>
+    <IncludePath>E:\Projects\World In Conflict\MULTIPLAYER\massgate\3rdparty\mysql\include;E:\Projects\World In Conflict\MULTIPLAYER\massgate\src\MServerBox;E:\Projects\World In Conflict\MULTIPLAYER\massgate\src\MMassgate;E:\Projects\World In Conflict\MULTIPLAYER\massgate\3rdparty\zlib\src;E:\Projects\World In Conflict\MULTIPLAYER\massgate\3rdparty\curl\src;E:\Projects\World In Conflict\MULTIPLAYER\massgate\src\MDatabase;E:\Projects\World In Conflict\MULTIPLAYER\massgate\src\MLogger;E:\Projects\World In Conflict\MULTIPLAYER\massgate\src\MNetwork;E:\Projects\World In Conflict\MULTIPLAYER\massgate\src\MCommon2;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Projects\World In Conflict\MULTIPLAYER\massgate\3rdparty\mysql\lib\vs14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;Iphlpapi.lib;Dbghelp.lib;mysqlclient.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

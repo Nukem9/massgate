@@ -1,0 +1,2130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MCommon2">
+      <UniqueIdentifier>{a6b6d5cf-f7a0-4b22-9928-89f46d6a2875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDatabase">
+      <UniqueIdentifier>{37fa5353-faa2-44df-9d7e-8f793ded85a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLogger">
+      <UniqueIdentifier>{51bde96f-781d-4d68-a406-4b7e30a74d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMassgate">
+      <UniqueIdentifier>{85028b26-8740-4fb7-b502-1b39213bc974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MNetwork">
+      <UniqueIdentifier>{f7581ad9-f651-4ed2-b885-5f28e948b384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MServerBox">
+      <UniqueIdentifier>{52c2d3ad-f2d6-4dfa-977d-9bbe37169fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{5c1d6f9f-2775-4429-beb4-f772af589449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{7c0a9d6f-81e7-4956-8e47-fe49d41ae636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\zlib">
+      <UniqueIdentifier>{8fcc6647-01cc-430f-88e8-fbed3012ab64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\curl">
+      <UniqueIdentifier>{4f2c3097-c0b8-42e9-b64d-dfd12a9460cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\src\MCommon2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\MCommon2\ct_assert.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Algorithm.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Array.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ArrayMap.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_BalancedITree.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_BalancedPTree.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Base.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_BitVector.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_circulararray.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_CircularGrowingArray.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_commandline.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Constants.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_DataTypes.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Debug.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_DebugListenerImplementations.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_EggClockTimer.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Endian.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_f2i.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_FastAlloc.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_globaldefines.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_GrowingArray.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_HashMap.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_HeapImplementation.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_HybridArray.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_IniFile.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Iterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ITree.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ITreeInorderIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ITreeLevelorderIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ITreeNode.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ITreePostorderIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ITreePreorderIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_KeyTree.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_KeyTreeInorderIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_KeyTreeNode.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_KeyTreePostOrderIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Link.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_List.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ListIterator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Math.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_md5.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Mem.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_MiniDumpTools.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Misc.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Pair.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Platform.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Platform_Win32.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_prettyprinter.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Profiler.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ProxyPtr.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_PTree.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_PTreeNode.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Publisher.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Registry.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_ScopedPtr.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_SmallObjectAllocator.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_sort.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_SortedGrowingArray.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Stack.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_StackList.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mc_stacktrace.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_StackWalker.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_StaticArray.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_String.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_StringParser.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Subscriber.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_SystemPaths.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Tokenizer.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MC_Vector.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mf_file.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mf_file_platform.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mi_time.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mi_timechecker.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\mp_pack.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MS_Aes.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Event.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Job.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Mutex.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_PooledThread.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_ReadWriteLock.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Semaphore.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Supervisor.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Task.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_Thread.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_ThreadingTools.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_ThreadPool.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\MT_WorkerThread.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MCommon2\StdAfx.h">
+      <Filter>MCommon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_connectionpinger.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_dataitem.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_mysqlconnection.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_prettyprinter.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_querylogger.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_stringconversion.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\mdb_timeable.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MDatabase\stdafx.h">
+      <Filter>MDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MLogger\ML_Backend.h">
+      <Filter>MLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MLogger\ML_ConsoleBackend.h">
+      <Filter>MLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MLogger\ML_FileBackend.h">
+      <Filter>MLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MLogger\ML_Logger.h">
+      <Filter>MLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MLogger\stdafx.h">
+      <Filter>MLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\ct_assert.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_AccessControl.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_AccountProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_AccountProxy.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_AuthToken.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_AutoMatch.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Average.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_BannedWordsProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_BannerProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_BitStream.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_BlackListMapProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_BlockTEA.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_CanPlayClanMatchProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_CdKeyChecker.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_CdKeyValidator.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Chat.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_CipherFactory.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Clan.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanChallengeStream.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanColosseumProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanGuestbookProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanMatchHistoryProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanMessageProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClanNamesProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ClientSettings.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Constants.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\mmg_contentdownloader.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Cryptography.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_CryptoHash.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_DecorationProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_DSChangeServerRanking.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_EncryptedConnection.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_EncryptionTester.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Fingerprint.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_FriendsLadderProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Gang.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_GenericCache.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_GroupMemberships.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_HashToMapName.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_HttpRequester.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IAccountProxyCallbacks.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IChatRoomListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ICipher.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IClanSearchResultsListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ICryptoHashAlgorithm.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IFriendsListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IHttpHandler.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IKeyManager.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_INATNegotiationMessagingListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_INewsItemListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_InstantMessageListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IProfileListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IProfileSearchResultsListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IStateChangeListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_IStreamable.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_LadderProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_MassgateNotifications.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_MasterConnection.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Messaging.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_MinimalProfileCache.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_MiscClanProtocols.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_NATNegotiationProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_NewsItem.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_NewsTracker.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_NullCipher.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Optional.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_OptionalContentProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Options.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_PCCProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_PlainText.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Profile.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ProfileEditableVariablesProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ProfileGuestbookProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ProfileIgnoreProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ProtocolDelimiters.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Protocols.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_QuestionListener.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_RankProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ReliablePacketHandler.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ReliableUdpSocket.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ReliableUdpSocketServerFactory.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_SecureRudpConnection.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_SecureTcpClientConnectionFactory.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_SecureTcpConnection.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ServerBannerDownloader.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ServerFilter.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ServerProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ServersAndPorts.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ServerTracker.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_ServerVariables.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_SingleKeyManager.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Stats.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_StatsTrackingProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Tiger.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_TrackableServer.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_Util.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\MMG_WaitForSlotProtocol.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MMassgate\stdafx.h">
+      <Filter>MMassgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_ClientConnectionFactory.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_Connection.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_ConnectionErrorType.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\mn_dnscache.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_FlagSet.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_Format.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\mn_icmpsocket.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_InducedLatencyHandler.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\mn_inethandler.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_IWriteableDataStream.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_LoopbackConnection.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_Message.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\mn_netrequester.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\mn_netstats.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_Packet.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_Platform.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_ReadMessage.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_Resolver.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_SocketUtils.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_TcpClientConnectionFactory.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_TcpConnection.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_TcpSocket.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_UdpSocket.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_WinsockNet.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\MN_WriteMessage.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MNetwork\StdAfx.h">
+      <Filter>MNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_256Bits.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_BitBuffer.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_BitStream.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_BoundQueue.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_ComboListener.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_ComboSocket.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Connection.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Connection_Win.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_ConnectionListener.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Console.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_GrowingArray.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_HashTable.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Huffman.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_HybridArray.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IArray.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IMap.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IMemCacheListener.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IMessageHandler.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IntegerStat.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IoCore.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IoCore_Win.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_IStream.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_LinkedList.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_MemCache.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_MemoryStream.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_MessageHandler.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_MessageHandler_Console.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_RawUDPSocket.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_ReadMessage.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Resolver.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Resolver_Win.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_RWLock.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_ServerBox.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_SimpleCounterStat.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Socket_Win.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_StackTraceException.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Stats.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_StatsContext.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_StringStat.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TCPConnection.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TCPConnection_Win.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TCPConnectionListener.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TCPListener.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TCPSocket.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TCPWriteList.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_TemplatedListener.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Types.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_UDPSocket.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_UDPWriteList.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_UnboundMemCache.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Vitter.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_WorkerThread.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_WriteableMemoryStream.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_WriteBuffer.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_WriteBufferPool.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_WriteList.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_WriteMessage.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\MSB_Xtea.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MServerBox\stdafx.h">
+      <Filter>MServerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_AccountAuthenticationUpdater.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_AccountConnectionHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_Assert.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_BanManager.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_BestOfLadder.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_CafeManager.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_CdKeyManagement.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ChatRoom.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ChatServerConnectionHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ClanColosseum.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ClanNameCache.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ClanSmurfTester.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ClanStats.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ConnectionLog.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_Constants.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_CycleHashList.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_DatabaseConnection.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_DatabasePool.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_DoubleBufferedArray.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_EloLadder.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_EventTypes.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ExecutionTimeSampler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_FriendsLadder.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_GeoIP.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_HashTable.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_HeapImplementation.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_HistoryLadder.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_InitData.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_IOCPServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_IocpWorkerThread.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_LadderUpdater.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_MapBlackList.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_MasterConnectionHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_MasterServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_MessagingConnectionHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_MessagingNATNegotiationHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_MultiKeyManager.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_NATNegotiationLut.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_NATNegotiationRelayingServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_NATNegotiationRelayingServerConnectionHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_PersistenceCache.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_PlayerStats.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_SanityServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ServerList.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\mms_serverlut.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\mms_serverlutcontainer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ServerStats.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ServerTracker.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ServerTrackerConnectionHandler.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_Statistics.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_Streamable.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_ThreadSafeQueue.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\MMS_TimeoutTimer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Server\stdafx.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\crc32.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\deflate.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\inffast.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\inffixed.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\inflate.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\inftrees.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\trees.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\zconf.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\zlib.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\zlib\src\zutil.h">
+      <Filter>3rdparty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\base64.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\config-win32.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\connect.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\content_encoding.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\cookie.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\curl.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\curlver.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\curlx.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\dict.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\easy.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\easyif.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\escape.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\file.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\formdata.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\ftp.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\getinfo.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\gtls.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\hash.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\hostip.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\http.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\http_chunks.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\http_negotiate.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\if2ip.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\inet_ntoa_r.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\inet_ntop.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\inet_pton.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\krb4.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\ldap.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\llist.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\md5.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\memdebug.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\memory.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\mprintf.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\multi.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\multiif.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\parsedate.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\progress.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\select.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\sendf.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\setup.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\share.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\sockaddr.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\speedcheck.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\splay.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\stdcheaders.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\strequal.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\strerror.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\strtok.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\strtoofft.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\timeval.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\transfer.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\types.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\url.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\curl\src\urldata.h">
+      <Filter>3rdparty\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\MCommon2\MC_BitVector.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mc_commandline.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_Debug.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_DebugListenerImplementations.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_FastAlloc.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_HashMap.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_IniFile.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mc_md5.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_Mem.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_MiniDumpTools.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_Misc.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_Platform_Win32.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mc_prettyprinter.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_ProxyPtr.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_Registry.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mc_sort.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mc_stacktrace.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_StackWalker.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_String.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MC_SystemPaths.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mf_file.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mf_file_Win32.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mi_time.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mi_timechecker.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\mp_pack.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MS_Aes.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Event.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Job.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Mutex.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_PooledThread.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_ReadWriteLock.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Semaphore.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Supervisor.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Task.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_Thread.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_ThreadingTools.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_ThreadPool.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\MT_WorkerThread.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MCommon2\StdAfx.cpp">
+      <Filter>MCommon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_connectionpinger.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_mysqlconnection.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_prettyprinter.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_querylogger.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_stringconversion.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\mdb_timeable.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MDatabase\stdafx.cpp">
+      <Filter>MDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MLogger\ML_Backend.cpp">
+      <Filter>MLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MLogger\ML_ConsoleBackend.cpp">
+      <Filter>MLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MLogger\ML_FileBackend.cpp">
+      <Filter>MLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MLogger\ML_Logger.cpp">
+      <Filter>MLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MLogger\stdafx.cpp">
+      <Filter>MLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MC_GenericCache.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_AccessControl.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_AccountProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_AccountProxy.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_AuthToken.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_AutoMatch.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_BannedWordsProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_BannerProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_BlackListMapProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_BlockTEA.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_CanPlayClanMatchProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_CdKeyChecker.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_CdKeyValidator.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Chat.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_CipherFactory.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Clan.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanChallengeStream.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanColosseumProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanGuestbookProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanListener.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanMatchHistoryProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanMessageProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ClanNamesProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_CryptoHash.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_DecorationProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_DSChangeServerRanking.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_EncryptedConnection.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_EncryptionTester.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Fingerprint.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_FriendsLadderProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_HashToMapName.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ICipher.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_IFriendsListener.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_IHttpRequester.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_INATNegotiationMessagingListener.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_InstantMessageListener.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_LadderProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_MasterConnection.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Messaging.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_MinimalProfileCache.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_MiscClanProtocols.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_NATNegotiationProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_NewsItem.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_NullCipher.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_OptionalContentProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Options.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_PCCProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_PlainText.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Profile.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ProfileEditableVariablesProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ProfileGuestbookProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ProfileIgnoreProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Protocols.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_QuestionListener.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_RankProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ReliableUdpSocket.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ReliableUdpSocketServerFactory.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_SecureRudpConnection.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_SecureTcpClientConnectionFactory.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_SecureTcpConnection.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ServerBannerDownloader.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ServerFilter.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ServersAndPorts.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ServerTracker.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_ServerVariables.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_SingleKeyManager.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Stats.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_StatsTrackingProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_Tiger.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_TrackableServer.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\MMG_WaitForSlotProtocol.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MMassgate\stdafx.cpp">
+      <Filter>MMassgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_ClientConnectionFactory.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_Connection.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\mn_dnscache.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_FlagSet.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_Format.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\mn_icmpsocket.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_InducedLatencyHandler.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\mn_inethandler.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_Message.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\mn_netrequester.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\mn_netstats.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_Packet.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_ReadMessage.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_Resolver.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_SocketUtils.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_TcpClientConnectionFactory.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_TcpConnection.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_TcpSocket.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_UdpSocket.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_WinsockNet.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\MN_WriteMessage.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MNetwork\StdAfx.cpp">
+      <Filter>MNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_BitBuffer.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_BitStream.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_ClientHandler.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_ComboSocket.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Connection_Win.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_ConnectionListener.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Console.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_HashTable.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Huffman.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_IntegerStat.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_IoCore_Win.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_MemoryStream.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_MessageHandler.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_RawUDPSocket.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_ReadMessage.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Resolver.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Resolver_Win.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_RWLock.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_SimpleCounterStat.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Socket_Win.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_StackTraceException.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Stats.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_StatsContext.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_StringStat.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_TCPConnection_Win.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_TCPConnectionListener.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_TCPListener.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_TCPSocket.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_TCPWriteList.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Types.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_UDPSocket.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_UDPWriteList.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_WorkerThread.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_WriteableMemoryStream.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_WriteBuffer.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_WriteBufferPool.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_WriteList.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_WriteMessage.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\MSB_Xtea.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MServerBox\stdafx.cpp">
+      <Filter>MServerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_AccountAuthenticationUpdater.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_AccountConnectionHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_Assert.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_BanManager.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_BestOfLadder.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_CafeManager.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_CdKeyManagement.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ChatRoom.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ChatServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ChatServerConnectionHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ClanColosseum.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ClanNameCache.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ClanSmurfTester.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ClanStats.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ConnectionLog.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_Constants.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_CycleHashList.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_DatabasePool.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_DubbleBufferedArray.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_EloLadder.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ExecutionTimeSampler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_FriendsLadder.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_GeoIP.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_HashTable.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_HistoryLadder.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_InitData.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_IOCPServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_IocpWorkerThread.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_LadderUpdater.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MapBlackList.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MassgateServers.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MasterConnectionHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MasterServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MessagingConnectionHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MessagingNATNegotiationHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_MultiKeyManager.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_NATNegotiationLut.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_NATNegotiationRelayingServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_NATNegotiationRelayingServerConnectionHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_PersistenceCache.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_PlayerStats.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_SanityServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ServerList.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\mms_serverlut.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\mms_serverlutcontainer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ServerStats.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ServerTracker.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ServerTrackerConnectionHandler.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_Statistics.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_ThreadSafeQueue.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\MMS_TimeoutTimer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Server\stdafx.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\adler32.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\compress.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\crc32.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\deflate.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\inffast.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\inflate.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\inftrees.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\trees.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\uncompr.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\src\zutil.cpp">
+      <Filter>3rdparty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\base64.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\connect.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\content_encoding.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\cookie.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\dict.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\easy.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\escape.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\file.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\formdata.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\ftp.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\getinfo.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\gtls.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hash.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hostares.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hostasyn.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hostip.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hostip4.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hostsyn.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\hostthre.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\http.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\http_chunks.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\http_negotiate.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\if2ip.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\inet_ntop.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\inet_pton.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\llist.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\md5.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\memdebug.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\mprintf.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\multi.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\parsedate.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\progress.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\security.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\select.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\sendf.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\share.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\speedcheck.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\splay.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\strequal.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\strerror.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\strtok.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\strtoofft.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\timeval.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\transfer.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\url.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\curl\src\version.c">
+      <Filter>3rdparty\curl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
